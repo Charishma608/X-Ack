@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #020B05;
+  padding: 0.4rem;
+  color: white;
+  border: 1px solid #1B1C1B;
+}
+
+.navbar-left h1 {
+  margin: 18px;
+  font-size: 24.1px;
+  letter-spacing: 1px;
+  line-height: 29.06px;
+  margin-left: 60px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar-center {
+  display: flex;
+  gap: 2.6rem;
+  position: relative;
+}
+
+.navbar-center .navbar-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbar-center a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navbar-center a:hover {
+  text-decoration: none;
+}
+
+.navbar-right {
+  margin-right: 50px;
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar-right a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navbar-right a:hover {
+  text-decoration: none;
+}
+
+.navbar-item i {
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+}
+
+button {
+  background: rgb(27, 27, 27);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 19px;
+  margin-top: -8px;
+  transition: 0.3s ease;
+  border-color: rgb(55, 69, 66);
+}
+
+button:hover {
+  background: linear-gradient(180deg, #254d31 0%, #1F2321 100%);
+  transform: scale(1.05);
+}

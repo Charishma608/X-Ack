@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Sen:wght@400..800&family=Zen+Maru+Gothic&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+.main-page {
+  min-height: 380vh;
+  background-color: rgb(9, 9, 9);
+  width: 97.0%;
+  border-left: 22px solid black;
+  border-right: 24px solid black;
+  position: relative;
+}
+
+h1 {
+  margin-top: 50px;
+  position: relative;
+}
+
+.top-left-image {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 340px;
+  height: auto;
+  z-index: 1;
+}
+
+.top-right-image {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  
+  width: 340px;
+  left: 1120px;
+  height: auto;
+  z-index: 1;
+}
+
+.main-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 70px;
+  font-weight: 520;
+  line-height: 100px;
+  letter-spacing: -1.79px;
+  text-align: center;
+  color: transparent;
+  background: linear-gradient(180deg, #f1f1ef 0%, rgba(241, 241, 239, 0.3) 100%);
+  background-clip: text;
+  margin-top: -140px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #f1f1ef99;
+  margin-left: -5px;
+  font-family: "Zen Maru Gothic", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.main-para {
+  margin-bottom: 40px;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn {
+  margin-left: 630px;
+  padding: 20px;
+  border-radius: 30px;
+  line-height: 4px;
+  width: 13%;
+  letter-spacing: 1.5px;
+  border: none;
+  margin-bottom: 40px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  box-shadow: inset 0 -5px 10px rgba(111, 255, 212, 0.5);
+}
+
+.center-image {
+  height: 650px;
+  width: 950px;
+  margin-top: -200px;
+  margin-left: 280px;
+}
+
+.semicircle {
+  margin-top: -40px;
+}
+
+.heading1 {
+  margin-top: 40px;
+  color: rgb(221, 223, 224);
+  font-family: 'Inter', sans-serif;
+  font-size: 57px;
+  font-weight: 500;
+  line-height: 80px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: -50px;
+}
+
+.heading2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 57px;
+  font-weight: 500;
+  line-height: 80px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: transparent;
+  background: linear-gradient(180deg, #f1f1ef 0%, rgba(241, 241, 239, 0.3) 100%);
+  background-clip: text;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5 {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(180deg, #1f2321 0%, #020b05 100%);
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.card1 {
+  width: 680px;
+  height: 440px;
+}
+
+.card2 {
+  width: 448px;
+  height: 437.75px;
+}
+
+.card3 {
+  width: 367px;
+  height: 401px;
+}
+
+.card4,
+.card5 {
+  width: 367px;
+  height: 401px;
+}
+
+.card5 {
+  width: 364px;
+  height: 399px;
+}
+
+h3 {
+  color: #f1f1ef;
+  margin-left: 50px;
+  margin-top: 30px;
+  line-height: 1.5rem;
+  font-weight: 80px;
+  letter-spacing: 0.5px;
+  font-size: 22px;
+}
+
+.card1 p,
+.card2 p,
+.card3 p,
+.card4 p,
+.card5 p {
+  text-align: left;
+  margin-left: 50px;
+  font-size: 17px;
+  line-height: 23px;
+}
+
+.card4 h3 {
+  margin-top: 250px;
+}
